@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AESampler'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'An AUSampler wrapper for TheAmazingAudioEngine'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ An AUSampler wrapper for TheAmazingAudioEngine.  Subclasses AEAudioUnitChannel.
   s.source           = { :git => 'https://github.com/dave234/AESampler.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '6.0'
 
   s.source_files = 'AESampler/Classes/**/*'
 
